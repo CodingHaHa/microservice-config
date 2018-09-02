@@ -15,7 +15,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
-  port: 82012
+  port: 8202
 spring:
   profiles: test #测试环境
   application:
