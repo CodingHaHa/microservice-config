@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev #开发环境
   application:
-    name: microservice-config-dept-client
+    name: microservice-config-dept
     datasource:
       type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
       driver-class-name: com.mysql.jdbc.Driver             # mysql驱动包
@@ -43,7 +43,7 @@ server:
 spring:
   profiles: test #测试环境
   application:
-    name: microservice-config-dept-client
+    name: microservice-config-dept
     datasource:
       type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
       driver-class-name: com.mysql.jdbc.Driver             # mysql驱动包
